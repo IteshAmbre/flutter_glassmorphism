@@ -1,7 +1,7 @@
 /* eslint-disable dot-notation */
 /* eslint-disable curly */
 import React, {useMemo, useReducer, useContext} from 'react';
-import {AsyncStorage} from 'react-native';
+import {AsyncStorage} from '@react-native-async-storage/async-storage';
 import axios from 'axios';
 
 //IMPORT REDUCER, INITIAL STATE AND ACTION TYPES
